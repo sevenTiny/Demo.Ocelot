@@ -17,8 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service3", "Service3\Servic
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-介绍", "01-介绍", "{0C94710B-0F69-4BEC-A2E6-DF81191FDDD9}"
 	ProjectSection(SolutionItems) = preProject
-		00-总.txt = 00-总.txt
-		01-Ocelot极简单Demo及负载均衡的配置.txt = 01-Ocelot极简单Demo及负载均衡的配置.txt
+		00-总.md = 00-总.md
+		01-Ocelot极简单Demo及负载均衡的配置.md = 01-Ocelot极简单Demo及负载均衡的配置.md
 	EndProjectSection
 EndProject
 Global
