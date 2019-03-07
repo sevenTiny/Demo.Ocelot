@@ -11,7 +11,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 39993
+          "Port": 39991
         },
         {
           "Host": "localhost",
@@ -19,19 +19,15 @@
         },
         {
           "Host": "localhost",
-          "Port": 39991
+          "Port": 39993
         }
       ],
 
-      // - 负载均衡配置
-      /*
-      LeastConnection – 将请求发往最空闲的那个服务器
-      RoundRobin – 轮流发送
-      NoLoadBalance – 总是发往第一个请求或者是服务发现
-      */
-      "LoadBalancer": {
-        "Type": "RoundRobin"
-      }
+      // - LoadBalancer将决定负载均衡的算法，三种取值
+      // RoundRobin：轮流发送
+      // LeastConnection：将请求发往最空闲的那个服务器
+      // NoLoadBalance：总是发往第一个请求或者是服务发现
+      "LoadBalancer": "RoundRobin"
     }
   ],
   "GlobalConfiguration": {
