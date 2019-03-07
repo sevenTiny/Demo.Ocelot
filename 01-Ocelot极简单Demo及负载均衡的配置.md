@@ -1,8 +1,8 @@
 # 01-Ocelot极简单Demo及负载均衡的配置
 
 ## 本Demo包含部分：
-1.Ocelot网关api的创建
-2.三个下游Demo微服务接口的创建
+1. Ocelot网关api的创建
+2. 三个下游Demo微服务接口的创建
 
 ## 详：
 
