@@ -7,13 +7,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "下游微服务", "下游�
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ocelot网关", "Ocelot网关", "{949D6F03-9A24-4EAF-B1A9-CCC71346CBD6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service1", "..\Service1\Service1.csproj", "{E03525B6-4F59-451F-88D0-C49592CEB4AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service1", "Service1\Service1.csproj", "{E03525B6-4F59-451F-88D0-C49592CEB4AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service2", "Service2\Service2.csproj", "{80F3837B-2C7A-40CA-9FB9-C585954E6A92}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service2", "Service2\Service2.csproj", "{80F3837B-2C7A-40CA-9FB9-C585954E6A92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OcelotGateway", "OcelotGateway\OcelotGateway.csproj", "{1A1731EE-8F3E-4FE7-9313-C636C03C881F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OcelotGateway", "OcelotGateway\OcelotGateway.csproj", "{1A1731EE-8F3E-4FE7-9313-C636C03C881F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service3", "Service3\Service3.csproj", "{16333651-7C4B-48A8-A37C-936EB4ED839E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service3", "Service3\Service3.csproj", "{16333651-7C4B-48A8-A37C-936EB4ED839E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-介绍", "01-介绍", "{0C94710B-0F69-4BEC-A2E6-DF81191FDDD9}"
+	ProjectSection(SolutionItems) = preProject
+		00-总.txt = 00-总.txt
+		01-Ocelot极简单Demo及负载均衡的配置.txt = 01-Ocelot极简单Demo及负载均衡的配置.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

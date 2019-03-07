@@ -27,7 +27,9 @@
       // RoundRobin：轮流发送
       // LeastConnection：将请求发往最空闲的那个服务器
       // NoLoadBalance：总是发往第一个请求或者是服务发现
-      "LoadBalancer": "RoundRobin"
+      "LoadBalancerOptions": {
+        "Type": "RoundRobin"
+      }
     }
   ],
   "GlobalConfiguration": {
