@@ -19,6 +19,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-介绍", "01-介绍", "{
 	ProjectSection(SolutionItems) = preProject
 		00-总.md = 00-总.md
 		01-Ocelot极简单Demo及负载均衡的配置.md = 01-Ocelot极简单Demo及负载均衡的配置.md
+		02-Ocelot集成Consul服务发现.md = 02-Ocelot集成Consul服务发现.md
 	EndProjectSection
 EndProject
 Global
